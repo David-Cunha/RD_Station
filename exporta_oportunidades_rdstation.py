@@ -83,10 +83,10 @@ class DataExporter:
 def main():
     config = APIConfig(
         base_url='https://crm.rdstation.com/api/v1/deals',
-        token='66259070c34464001534835a'
+        token='token'
     )
 
-    output_dir = Path(r'G:\.shortcut-targets-by-id\1kArAZwgCxrjbQwQOPEzeJLtMUll3VVJ7\13. Dados\13.9. Atendimento\13.9.2. RD Station\13.9.2.1. Oportunidade_2026')
+    output_dir = Path(r'Pasta_de_destino\nome_da_pasta_destino')
     
     client = RDStationClient(config)
     exporter = DataExporter(output_dir)
