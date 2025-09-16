@@ -28,3 +28,25 @@ Clone o repositório:
 ```bash
 git clone https://github.com/David-Cunha/RD_Station.git
 cd RD_Station
+pip install -r requirements.txt
+```
+
+## 🔑 Configuração de Tokens
+
+Para rodar os scripts que acessam a API do RD Station:
+
+Crie uma conta e gere um token de API
+
+Adicione o token em um arquivo .env ou configure diretamente nas variáveis de ambiente
+
+Nunca commit seu token no repositório
+
+## 🚀 Uso
+
+Exemplo de execução de um script Python:
+
+python scripts/exemplo_integracao.py
+
+## 📄 Licença
+
+Este projeto é licenciado sob a MIT License. Consulte o arquivo LICENSE para mais detalhes.
